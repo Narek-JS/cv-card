@@ -1,0 +1,24 @@
+.rounder{
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    --tw-bg-opacity: 1;
+    background-color: rgba(255,255,255,var(--tw-bg-opacity));
+    --tw-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+    box-shadow: var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow);
+    padding: 0 0 50px 0;
+}
+
+.wrappereAboutInfo{
+    padding: 55px 60px 60px 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width:1020px){
+    .wrappereAboutInfo{
+        display:block;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,39 @@
+.wrapperAbout{
+    width: 50%;
+}
+.wrapperTextAboutMe{
+    display: flex;
+}
+.textAbout, .textMe{
+    --tw-text-opacity: 1;
+    color: rgba(33,33,33,var(--tw-text-opacity));
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+.textMe{
+    color: rgba(46,202,127);
+}
+.paddingLeft5{
+    padding-left: 5px;
+}
+.padding20{
+    padding-top: 20px;
+}
+
+.padding10{
+    padding-top: 10px;
+}
+.textAboutMe{
+    --tw-text-opacity: 1;
+    color: rgba(73,81,93,var(--tw-text-opacity));
+    font-size: 1rem;
+    line-height: 1.7rem;
+}
+
+@media screen and (max-width:1020px) {
+    .wrapperAbout{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+}

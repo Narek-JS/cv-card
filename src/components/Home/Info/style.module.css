@@ -1,0 +1,15 @@
+.wrapperLogoAndText{
+    display: flex;
+}
+.logoAndText{
+    width: 100px;
+}
+.wrapperLogoAndText p{
+    font-size: 1rem;
+    line-height: 1.7rem;
+    --tw-text-opacity: 1;
+    color: rgba(73,81,93,var(--tw-text-opacity));
+}
+.padding10{
+    padding-top: 10px;
+}

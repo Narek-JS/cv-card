@@ -1,0 +1,78 @@
+.aboveSection{
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 15px 15px 0 0;
+    background-color: rgba(46,202,127);
+    background-image: url('../../../assets/images/bgImages.png');
+    --webkit-background-size: cover;
+    background-position: center;
+}
+.divInSection{
+    display: flex;
+    margin: 50px 60px -35px 45px;
+    justify-content: space-between;
+}
+.myImg{
+    background-image: url('../../../assets/images/myImage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    width: 275px;
+    height: 275px;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.myName, .myDegree{
+    --tw-text-opacity: 1;
+    color: rgba(255,255,255,var(--tw-text-opacity));
+}
+
+.myName{
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1;
+}
+
+.pd2{
+    padding-bottom: 10px;
+}
+
+.myDegree{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.pd4{
+    padding-bottom: 20px;
+}
+
+
+.linkToLinkdin, .linkToGithubn{
+    margin: 0 5px 0 5px;
+    width: 20px;
+    background: aliceblue;
+    border-radius: 50%;
+    padding: 13px 12px 10px 13px;
+}
+
+@media screen and (max-width: 1020px) {
+    .aboveSection{
+        text-align: center;
+    }
+    .divInSection{
+        display: block;
+        padding: 50px 0;
+        margin: 0;
+    }
+    .myImg{
+        background-position: center;
+    }
+    .wrrapperMyImg{
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+}
