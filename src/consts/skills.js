@@ -1,8 +1,24 @@
 
 export const SKILLS = [
     {
+        name: 'HTML/HTML5',
+        percent: '90%',
+    },
+    {
+        name: 'PUG',
+        percent: '90%'
+    },
+    {
+        name: 'CSS/SASS/Tailwind CSS',
+        percent: '75%',
+    },
+    {
         name: 'JavaScript/ES5, ES6+',
         percent: '95%',
+    },
+    {
+        name: 'TypeScript',
+        percent: '85%',
     },
     {
         name: 'React Js',
@@ -10,14 +26,14 @@ export const SKILLS = [
     },
     {
         name: 'Redux',
-        percent: '80%',
+        percent: '83%',
     },
     {
-        name: 'HTML/HTML5',
-        percent: '90%',
+        name: 'Node.js/Express',
+        percent: '40%'
     },
     {
-        name: 'CSS/SASS',
-        percent: '75%',
-    },
+        name: 'webpack/gulp',
+        percent: '65%'
+    }
 ]

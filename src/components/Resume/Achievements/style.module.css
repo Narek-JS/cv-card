@@ -1,0 +1,34 @@
+.divEducation{
+    padding: 0 50px;
+}
+.padding20{
+    padding-bottom: 20px;
+}
+.padding15{
+    padding-bottom: 15px;
+}
+.flex{
+    display: flex;
+}
+.rounderDiv{   
+    margin-top: 5px;
+    width: 12px;
+    height: 11px;
+    background: rgba(46,202,127);
+    border-radius: 50%;
+}
+.paddingLeft10{
+    padding-right: 10px;
+}
+.textAboutEducation{
+    --tw-text-opacity: 1;
+    color: rgba(73,81,93,var(--tw-text-opacity));
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+@media screen and (max-width:1170px){
+    .divEducation{
+        padding: 0 20px;
+    }
+}
