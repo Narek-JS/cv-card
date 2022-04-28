@@ -8,9 +8,9 @@ export const EDUCATION = [
         contentStyle:{ background: 'nune', border:'2px solid rgba(46,202,127)' },
         contentArrowStyle: { borderRight: '7px solid  rgba(46,202,127)' },
         iconStyle:{ background: '#FFFFFF', color: '#fff' },
-        name:'Faculty of Radiophysics',
-        date: "2017 - 2021",
-        info: 'Bachelor of Science in the Faculty of Radiophysics of Yerevan State University',
+        name:'Faculty of Finance',
+        date: "2018 - 2023",
+        info: 'Bachelor of Science in the Faculty of Finance of National University of Armenia',
         icon: <img src={IMG_University} style={{width:'100%'}} />,
     },
     {
